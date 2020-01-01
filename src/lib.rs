@@ -21,6 +21,7 @@ mod utils;
 mod value;
 
 pub use error::{Error, Fault};
+pub use parser::parse_response;
 pub use request::Request;
 pub use transport::Transport;
 pub use value::{Index, Value};
